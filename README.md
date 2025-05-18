@@ -41,22 +41,17 @@ Before running the script, ensure you have the following installed:
 1.  **Clone the repository or download the script:**
     If this were a Git repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/Microck/FrameScribe
+    cd FrameScribe
     ```
     Otherwise, just download `framescribe.py` and `requirements.txt` into a new folder.
 
-2.  **Install `yt-dlp` (if not already installed globally):**
-    ```bash
-    pip install yt-dlp
-    ```
-
-3.  **Install FFmpeg:**
+2.  **Install FFmpeg:**
     -   Download FFmpeg from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
     -   Extract it to a suitable location (e.g., `C:\ffmpeg` on Windows or `/usr/local/ffmpeg` on Linux/macOS).
     -   Add the `bin` subdirectory (e.g., `C:\ffmpeg\bin`) to your system's PATH environment variable. You can verify by opening a new terminal and typing `ffmpeg -version`.
 
-4.  **Install Python dependencies:**
+3.  **Install Python dependencies:**
     Navigate to the directory containing `framescribe.py` and `requirements.txt`, then run:
     ```bash
     pip install -r requirements.txt
